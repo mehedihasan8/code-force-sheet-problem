@@ -1,0 +1,23 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int arr[3], original[3];
+
+  
+    cin >> arr[0] >> arr[1] >> arr[2];
+
+    original[0] = arr[0];
+    original[1] = arr[1];
+    original[2] = arr[2];
+
+    sort(arr, arr + 3);
+
+    cout << arr[0] << endl << arr[1] << endl << arr[2] << endl;
+
+    cout << endl;
+
+    cout << original[0] << endl << original[1] << endl << original[2] << endl;
+
+    return 0;
+}
